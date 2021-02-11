@@ -17,7 +17,7 @@ print(" ")
 if userinput == 'daily':
 
     #set current working directory
-    os.chdir('C:\\Users\)
+    os.chdir('C:\\Users')
     #Check if working directory is correct
     print(os.getcwd())
 
@@ -50,7 +50,7 @@ if userinput == 'daily':
         datacomb="7D"
         print("Sucessfully read in sample file weatherdata")
         
-    os.chdir(')
+    os.chdir()
     prerunreadweather()
     os.chdir()
 
